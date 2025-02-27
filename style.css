@@ -11,3 +11,81 @@ Písmo:
 Baloo Bhaijaan 2
 https://fonts.google.com/specimen/Baloo+Bhaijaan+2?lang=cs_Latn
 */
+
+/* Nastavení písma */
+body {
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    background-color: #545e75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Karta */
+  .card {
+    background-color: white;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    padding: 6px;
+  }
+  
+  /* Obrázek */
+  .card-image {
+    width: 100%;
+    display: block;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  
+  /* Obsah karty */
+  .card-content {
+    padding: 16px 20px;
+  }
+  
+  /* Titulek */
+  .card-title {
+    background-color: #8ac926;
+    color: white;
+    font-size: 24px;
+    padding: 16px 20px;
+    margin: 0 -20px 20px -20px;
+    line-height: 1;
+  }
+  
+  /* Podnadpis */
+  .card-subtitle {
+    color: #8ac926;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  /* Text */
+  .card-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Tlačítka */
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    background-color: #8ac926;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 6px;
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    background-color: #7cb422;
+  }
